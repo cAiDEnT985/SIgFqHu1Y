@@ -64,7 +64,6 @@ simpledb_host = sdb.amazonaws.com
 skip_existing = False
 socket_timeout = 300
 stats = False
-stop_on_error = False
 storage_class = 
 urlencoding_mode = normal
 use_http_expect = False
