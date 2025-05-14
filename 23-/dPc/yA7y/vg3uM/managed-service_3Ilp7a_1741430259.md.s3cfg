@@ -29,7 +29,6 @@ gpg_encrypt = %(gpg_command)s -c --verbose --no-use-agent --batch --yes --passph
 gpg_passphrase = 
 guess_mime_type = True
 host_base = localhost:9000
-host_bucket = localhost:9000
 human_readable_sizes = False
 invalidate_default_index_on_cf = False
 invalidate_default_index_root_on_cf = True
