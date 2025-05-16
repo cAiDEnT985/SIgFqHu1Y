@@ -35,7 +35,6 @@ invalidate_default_index_root_on_cf = True
 invalidate_on_cf = False
 kms_key = 
 limit = -1
-limitrate = 0
 list_md5 = False
 list_allow_unordered = False
 log_target_prefix = 
