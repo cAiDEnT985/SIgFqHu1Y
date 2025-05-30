@@ -16,7 +16,6 @@ from sklearn.ensemble import GradientBoostingClassifier
 
 # load the dataset (local path)
 url = "data.csv"
-# feature names
 features = ["MDVP:Fo(Hz)","MDVP:Fhi(Hz)","MDVP:Flo(Hz)","MDVP:Jitter(%)","MDVP:Jitter(Abs)","MDVP:RAP","MDVP:PPQ","Jitter:DDP","MDVP:Shimmer","MDVP:Shimmer(dB)","Shimmer:APQ3","Shimmer:APQ5","MDVP:APQ","Shimmer:DDA","NHR","HNR","RPDE","DFA","spread1","spread2","D2","PPE","status"]
 dataset = pandas.read_csv(url, names = features)
 
